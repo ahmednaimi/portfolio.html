@@ -5,103 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ahmed Naimi | Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- Header Section -->
-    <header>
-      <h1>Ahmed Naimi</h1>
-      <p>Web Developer | Designer | Programmer</p>
-      <nav>
-        <ul>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#media">Media</a></li>
-          <li><a href="#contact">Contact</a></li>
+    <header class="header">
+      <h1 class="site-title">Ahmed Naimi</h1>
+      <p class="tagline">Web Developer | Designer | Programmer</p>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About Me</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#media" class="nav-link">Media</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <!-- About Section -->
-    <section id="about">
-      <h2>About Me</h2>
-      <img id="myImg" src="./assets/img.jpg" alt="Me" style="width:100%;max-width:300px">
-      <p>
-        Hello! I’m Ahmed, a passionate web developer . I enjoy working on both
+    <section id="about" class="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="profile">
+        <img id="myImg" class="profile-img" src="./assets/img.jpg" alt="Portrait of Ahmed Naimi">
+      </div>
+      <p class="about-text">
+        Hello! I’m Ahmed, a passionate web developer. I enjoy working on both
         the front-end and back-end.
       </p>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <h3>Project 1: Personal Blog</h3>
-          <p>A responsive blog website built with HTML, CSS, and JavaScript.</p>
+    <section id="projects" class="projects">
+      <h2 class="section-title">Projects</h2>
+      <ul class="project-list">
+        <li class="project-item">
+          <h3 class="project-title">Project 1: Personal Blog</h3>
+          <p class="project-desc">A responsive blog website built with HTML, CSS, and JavaScript.</p>
         </li>
-        <li>
-          <h3>Project 2: Online Store</h3>
-          <p>
+        <li class="project-item">
+          <h3 class="project-title">Project 2: Online Store</h3>
+          <p class="project-desc">
             An e-commerce website prototype showcasing product pages and a
             shopping cart system.
           </p>
         </li>
-        <li>
-          <h3>Project 3: Portfolio Website</h3>
-          <p>This very portfolio site! Built to showcase my work and skills.</p>
+        <li class="project-item">
+          <h3 class="project-title">Project 3: Portfolio Website</h3>
+          <p class="project-desc">This very portfolio site! Built to showcase my work and skills.</p>
         </li>
       </ul>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML & CSS</li>
-        <li>JavaScript</li>
-        <li>Git & GitHub</li>
-        <li>Responsive Web Design</li>
+    <section id="skills" class="skills">
+      <h2 class="section-title">Skills</h2>
+      <ul class="skills-list">
+        <li class="skill">HTML & CSS</li>
+        <li class="skill">JavaScript</li>
+        <li class="skill">Git & GitHub</li>
+        <li class="skill">Responsive Web Design</li>
       </ul>
     </section>
 
     <!-- Media Section -->
-    <section id="media">
-      <h2>Media</h2>
+    <section id="media" class="media">
+      <h2 class="section-title">Media</h2>
 
       <!-- Video -->
-      <h3>Introduction Video</h3>
-      <video controls width="480">
+      <h3 class="media-subtitle">Introduction Video</h3>
+      <video class="media-video" controls width="480">
         <source src="intro.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
       <!-- Audio -->
-      <h3>Background Audio</h3>
-      <audio controls>
+      <h3 class="media-subtitle">Background Audio</h3>
+      <audio class="media-audio" controls>
         <source src="background.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>
-        Email: <a href="mailto:ahmed@example.com">ahmednaimi07@outlook.com</a>
+    <section id="contact" class="contact">
+      <h2 class="section-title">Contact Me</h2>
+      <p class="contact-item">
+        Email: <a href="mailto:ahmed@example.com" class="contact-link">ahmednaimi07@outlook.com</a>
       </p>
-      <p>
+      <p class="contact-item">
         LinkedIn:
-        <a href="#">https://www.linkedin.com/in/ahmed-naimi-89a72322a </a>
+        <a href="https://www.linkedin.com/in/ahmed-naimi-89a72322a" target="_blank" rel="noopener noreferrer" class="contact-link">Ahmed Naimi</a>
       </p>
-      <p>GitHub: <a href="#">github.com/ahmednaimi</a></p>
+      <p class="contact-item">GitHub: <a href="https://github.com/ahmednaimi" target="_blank" rel="noopener noreferrer" class="contact-link">github.com/ahmednaimi</a></p>
     </section>
 
     <!-- Footer -->
-    <footer>
-      <p>&copy; 2025 Ahmed Naimi. All rights reserved.</p>
+    <footer class="footer">
+      <p class="footer-text">&copy; 2025 Ahmed Naimi. All rights reserved.</p>
     </footer>
   </body>
 </html>
